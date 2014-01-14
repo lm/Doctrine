@@ -93,6 +93,7 @@ class OrmExtension extends Nette\DI\CompilerExtension
 			'polygon' => 'Kdyby\Doctrine\Types\Polygon',
 			'multiPolygon' => 'Kdyby\Doctrine\Types\MultiPolygon',
 			'geometryCollection' => 'Kdyby\Doctrine\Types\GeometryCollection',
+			'internetAddress' => 'Kdyby\Doctrine\Types\InternetAddress',
 		),
 	);
 

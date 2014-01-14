@@ -29,5 +29,6 @@ abstract class DbalType extends Doctrine\DBAL\Types\Type
 	const POLYGON = 'polygon';
 	const MULTI_POLYGON = 'multiPolygon';
 	const GEOMETRY_COLLECTION = 'geometryCollection';
+	const INTERNET_ADDRESS = 'internetAddress';
 
 }
